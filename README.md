@@ -1,20 +1,20 @@
 # creating-a-laravel-api
 creating a laravel api
 
-khoi tao project
+### 1. Khởi tạo project
 composer create-project laravel/laravel example-app
 
-tao model Post va migration cho table do luon
+### 2. tao model Post va migration cho table do luon
 php artisan make:model Post --migration
 
-thuc thi cac migration
+### 3. thuc thi cac migration
 php artisan migrate
 
-tao controller cho api luon
+### 4. tao controller cho api luon
 php artisan make:controller Api\PostController --api
 
-list tat cac route
+### 5. list tat cac route
 php artisan route:list
 
-bonus che do interactive shelll => sieu ngon khi dung python
+### 6. bonus che do interactive shelll => sieu ngon khi dung python
 php artisan tinker
