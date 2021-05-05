@@ -39,5 +39,6 @@ Route::group([
     "namespace" => "App\Http\Controllers\Api",
     "prefix" => "v1"
 ],function(){
+    //Route::get("/",'PostController@index');
     Route::apiResource("posts","PostController");
 });
